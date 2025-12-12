@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function createIntro() {
     var n = document.createElement("div");
     n.className = "intro";
-    n.innerHTML = '<div class="intro-box"><h1>Bienvenido</h1><p>Preparando tu portafolio</p><div class="progress"><div class="progress-bar"></div></div></div>';
+    n.innerHTML = '<div class="intro-box"><h1>Bienvenido</h1><p>Preparando el portafolio</p><div class="progress"><div class="progress-bar"></div></div></div>';
     document.body.appendChild(n);
     return n;
   }
