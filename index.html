@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="meta_title">Gael Emiliano Pérez Osuna — Portafolio</title>
+    <link rel="stylesheet" href="estilos/estilos.css" />
+</head>
+
+<body>
+
+<header class="header">
+    <div class="nav-wrapper">
+        <h2 class="logo" data-i18n="logo">Gael</h2>
+
+        <nav class="nav">
+            <ul id="navLinks" class="nav-links">
+                <li><a href="#hero" data-i18n="nav_hero">Sobre mí</a></li>
+                <li><a href="#services" data-i18n="nav_services">Habilidades</a></li>
+                <li><a href="#skills" data-i18n="nav_skills">Conocimientos</a></li>
+                <li><a href="#education" data-i18n="nav_edu">Educación</a></li>
+                <li><a href="#certificados" data-i18n="nav_cert">Certificados</a></li>
+                <li><a href="#projects" data-i18n="nav_proj">Proyectos</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">Contacto</a></li>
+            </ul>
+
+            <div class="lang-menu">
+                <button id="langBtn">🌐 <span id="langLabel" data-i18n="lang_label">Español</span> ▾</button>
+                <ul id="langOptions" class="lang-options">
+                    <li data-lang="es" data-i18n="lang_es">🇲🇽 Español</li>
+                    <li data-lang="en" data-i18n="lang_en">🇺🇸 English</li>
+                    <li data-lang="fr" data-i18n="lang_fr">🇫🇷 Français</li>
+                </ul>
+            </div>
+
+            <button id="menuToggle" class="menu-toggle">☰</button>
+        </nav>
+    </div>
+</header>
+
+
+<section id="hero" class="hero">
+    <div class="hero-container">
+
+        <div class="hero-left">
+            <div class="hero-img">
+                <img src="assets/fotoGael.jpeg" alt="Gael">
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <h1 data-i18n="hero_t1">Hola, soy <span class="accent">Gael</span></h1>
+            <div class="typing"></div>
+
+            <p id="aboutText" data-i18n="hero_p">
+                Soy una persona con fuerte interés por el futuro de la tecnología, motivado por aprender continuamente 
+                y profundizar en mi área profesional. Me apasiona resolver problemas complejos mediante soluciones 
+                eficientes en seguridad informática, bases de datos y redes. Actualmente curso estudios universitarios 
+                con el objetivo de ejercer profesionalmente mientras sigo creciendo día con día.
+            </p>
+
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/gael-p%C3%A9rez-97ba38362/" target="_blank">
+                    <img src="assets/redes/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/gpozuna2847" target="_blank">
+                    <img src="assets/redes/github.png" alt="GitHub">
+                </a>
+                <a href="https://www.instagram.com/gxelprzzz/" target="_blank">
+                    <img src="assets/redes/instagram.png" alt="Instagram">
+                </a>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn" data-i18n="hero_btn">Ver Proyectos</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="services" class="services">
+    <h2 class="section-title" data-i18n="services_t">HABILIDADES</h2>
+
+    <div class="service-grid">
+
+        <div class="service-card">
+            <h3 data-i18n="serv1_t">Seguridad Informática</h3>
+            <p data-i18n="serv1_p">Análisis, protección y endurecimiento de sistemas, redes y accesos.</p>
+        </div>
+
+        <div class="service-card">
+            <h3 data-i18n="serv2_t">Bases de Datos</h3>
+            <p data-i18n="serv2_p">Diseño, modelado, consultas y administración de bases SQL.</p>
+        </div>
+
+        <div class="service-card">
+            <h3 data-i18n="serv3_t">Redes y Cisco</h3>
+            <p data-i18n="serv3_p">Configuración de VLAN, ACLs, diagnósticos y simulación de topologías seguras.</p>
+        </div>
+
+        <div class="service-card">
+            <h3 data-i18n="serv4_t">Desarrollo Web</h3>
+            <p data-i18n="serv4_p">Frontend básico con HTML, CSS y JavaScript, control de versiones con Git.</p>
+        </div>
+
+        <div class="service-card">
+            <h3 data-i18n="serv5_t">Desarrollo Móvil</h3>
+            <p data-i18n="serv5_p">Aplicaciones en Android Studio.</p>
+        </div>
+
+        <div class="service-card">
+            <h3 data-i18n="serv6_t">UI/UX y Prototipado</h3>
+            <p data-i18n="serv6_p">Prototipos en Figma para aplicaciones web y móviles.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="skills" class="skills">
+    <h2 class="section-title" data-i18n="skills_t">CONOCIMIENTOS</h2>
+
+    <div class="skills-box">
+
+        <div class="skill-item"><img src="assets/herramientas/html.png"><p data-i18n="sk_html">HTML</p></div>
+        <div class="skill-item"><img src="assets/herramientas/css.png"><p data-i18n="sk_css">CSS</p></div>
+        <div class="skill-item"><img src="assets/herramientas/javascript.png"><p data-i18n="sk_js">JavaScript</p></div>
+        <div class="skill-item"><img src="assets/herramientas/python.png"><p data-i18n="sk_py">Python</p></div>
+        <div class="skill-item"><img src="assets/herramientas/c++.png"><p data-i18n="sk_cpp">C++</p></div>
+        <div class="skill-item"><img src="assets/herramientas/figma.png"><p data-i18n="sk_fig">Figma</p></div>
+        <div class="skill-item"><img src="assets/herramientas/vscode.png"><p data-i18n="sk_vsc">VSCode</p></div>
+        <div class="skill-item"><img src="assets/herramientas/github.png"><p data-i18n="sk_git">GitHub</p></div>
+        <div class="skill-item"><img src="assets/herramientas/gitlab.png"><p data-i18n="sk_lab">GitLab</p></div>
+        <div class="skill-item"><img src="assets/herramientas/cisco.png"><p data-i18n="sk_cis">Cisco</p></div>
+        <div class="skill-item"><img src="assets/herramientas/android.png"><p data-i18n="sk_and">Android</p></div>
+        <div class="skill-item"><img src="assets/herramientas/mysql.png"><p data-i18n="sk_sql">SQL</p></div>
+
+    </div>
+</section>
+
+
+<section id="education" class="education">
+    <h2 class="section-title" data-i18n="edu_t">EDUCACIÓN</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3 data-i18n="edu1_t">Universidad Politécnica de Sinaloa</h3>
+            <p data-i18n="edu1_p">Ingeniería en Tecnologías de la Información e Innovación Digital</p>
+        </div>
+
+        <div class="timeline-item">
+            <h3 data-i18n="edu2_t">Certificaciones Técnicas</h3>
+            <p data-i18n="edu2_p">Inglés B1 · Técnico en Mecatrónica · Cursos Cisco.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="certificados" class="certificados">
+    <h2 class="section-title" data-i18n="cert_t">CERTIFICADOS</h2>
+
+    <div class="cert-grid">
+
+        <div class="cert-card" data-cert="assets/certificados/CSS.PNG">
+            <img src="assets/certificados/CSS.PNG" alt="">
+            <h3 data-i18n="cert1_t">Certificado: CSS</h3>
+        </div>
+
+        <div class="cert-card" data-cert="assets/certificados/HTML.PNG">
+            <img src="assets/certificados/HTML.PNG" alt="">
+            <h3 data-i18n="cert2_t">Certificado: HTML</h3>
+        </div>
+
+        <div class="cert-card" data-cert="assets/certificados/INTROREDES.PNG">
+            <img src="assets/certificados/INTROREDES.PNG" alt="">
+            <h3 data-i18n="cert3_t">Certificado: Introducción a Redes</h3>
+        </div>
+
+        <div class="cert-card" data-cert="assets/certificados/REDES.PNG">
+            <img src="assets/certificados/REDES.PNG" alt="">
+            <h3 data-i18n="cert4_t">Certificado: Redes</h3>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="projects" class="projects">
+    <h2 class="section-title" data-i18n="proj_t">PROYECTOS</h2>
+
+    <div class="projects-grid">
+
+        <a href="https://github.com/gpozuna2847/EazyHome" class="project-card" target="_blank">
+
+            <img src="assets/proyectos/eazyhome.png" class="project-img" alt="">
+            <h3 data-i18n="proj1_t">EazyHome</h3>
+            <p data-i18n="proj1_p">Aplicación web para la contratación de servicios.</p>
+            <span class="tech" data-i18n="proj1_tech">HTML · JavaScript · MySQL · Figma · CSS · XAMPP</span>
+
+        </a>
+
+        <a href="https://www.figma.com/design/t18B1TD3Po3zbTNpO1RWSD/RutaMaz?node-id=0-1" class="project-card" target="_blank">
+
+            <img src="assets/proyectos/rutamaz.png" class="project-img" alt="">
+            <h3 data-i18n="proj2_t">Rutamaz</h3>
+            <p data-i18n="proj2_p">App móvil para rastreo de rutas de camiones.</p>
+            <span class="tech" data-i18n="proj2_tech">Figma</span>
+
+        </a>
+
+        <a href="https://www.figma.com/design/in82cP5BpJlJpnnGuA9ALe/Figma-global?node-id=18-9223" class="project-card" target="_blank">
+
+            <img src="assets/proyectos/tacomexicano.png" class="project-img" alt="">
+            <h3 data-i18n="proj3_t">TacoMex</h3>
+            <p data-i18n="proj3_p">App móvil para gestión de restaurantes.</p>
+            <span class="tech" data-i18n="proj3_tech">Figma</span>
+
+        </a>
+
+    </div>
+</section>
+
+
+<section id="contact" class="contact">
+    <h2 class="section-title" data-i18n="contact_t">CONTACTO</h2>
+
+    <div class="contact-content">
+        <p data-i18n="contact_mail">Gmail: gepo2006@gmail.com</p>
+        <p data-i18n="contact_tel">Número: +52 669 229 9866</p>
+        <p data-i18n="contact_lang">Idiomas: Español (Nativo) · Inglés (B1)</p>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <p data-i18n="footer_copy">© <span id="year"></span> Gael Emiliano Pérez Osuna — Portafolio</p>
+</footer>
+
+
+<div id="certModal" class="cert-modal">
+    <span class="close-modal">&times;</span>
+    <img id="modalImg" class="modal-content">
+</div>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+</body>
+</html>
